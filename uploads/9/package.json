@@ -1,0 +1,14 @@
+{
+  "name": "cookbook.dev",
+  "version": "0.42",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.0",
+    "dotenv": "^16.0.3",
+    "hardhat-preprocessor": "^0.1.5"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test-deploy": "node ./scripts/deploy.js"
+  }
+}
